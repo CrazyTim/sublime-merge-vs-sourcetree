@@ -28,7 +28,7 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-001.png)
 
-  *(The Interactive rebase interface in Sourcetree is vague and unintuitive because it provides an interface to do everything all at once)*
+  *(The Interactive rebase interface in Sourcetree is vague and unintuitive)*
 
 - Cloning a repo is wonderfully simple - you can do it in two clicks (seriously):
 
@@ -42,17 +42,13 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   *(The workflow in Sourcetree is vague and unintuitive)*
   
-- Some buttons show what git commands they execute (handy if you're learning how git works).
+- Tool tips on some buttons show what git commands they execute (handy if you're learning how git works).
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-008.png)
 
-  *(Sourcetree is a black box and its difficult to guess what buttons actually do (labels are poorly written too), which makes it scarey for learners to explore)*
-  
-- There are many handy commands, each showing the associated git commands they run:
-
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-010.png)
 
-  *(The Sourcetree interface is more GUI-based)*
+  *(Sourcetree is a black box and its difficult to guess what buttons actually do. labels are poorly written too, which makes it scarey for learners to explore)*
 
 - The full path to the repo is shown in the Window title.
 
@@ -64,7 +60,7 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   *(Sourcetree only bolds the branch name, which is hard to see with lots of branches)*
 
-- Easily inspect the state of any file as of a certain commit.
+- Easily inspect the state of any file as of a certain commit (`Right-Click` on a commit > `View Tree`).
 
   *Source tree only shows you files that where modified as part of the commit.*
 
@@ -105,9 +101,11 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
 ### Sourcetree features that are better:
 
+Sublime Merge can do everything Sourcetree can, well, almost...
+
 - You can adjust the number of lines before and after a diff.
 
-  *This cannot be changed in Sublime Merge.*
+  *(Sublime Merge doesn't have this feature)*
 
 
 ### Sourcetree bugs that make me furious:
