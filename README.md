@@ -1,8 +1,8 @@
-# Sublime Merge vs SourceTree (Git client comparison)
+# Sublime Merge vs SourceTree
 
 I stopped using Sourcetree (Windows version) a few weeks ago and haven't looked back.
 
-Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far superior Git client:
+Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) is a far superior Git client:
 
 - Its lightning fast.
 
