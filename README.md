@@ -24,7 +24,13 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
   *(Sourcetree can do this, but its buggy and doesn't give the correct result most of the time)*
 
-- Cloning a repo is wonderfully simple:
+- Interactive rebase commands are performed separately, and this works out to be very intuitive. Simply `Ctrl`+`Click` multiple commits, then use the context menu to squash, reorder, amend commit message, etc.
+
+  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-001.png)
+
+  *(The Interactive rebase interface in Sourcetree is vague and unintuitive because it provides an interface to do everything all at once)*
+
+- Cloning a repo is wonderfully simple - you can do it in two clicks (seriously):
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-005.png)
 
@@ -48,13 +54,19 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
   *(The Sourcetree interface is more GUI-based)*
 
-- The name of checked out branch is prominent:
+- The full path to the repo is shown in the Window title.
+
+  *(Sourcetree doesn't have this feature)*
+
+- The checked-out branch name is prominent:
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-004.png)
 
   *(Sourcetree only bolds the branch name, which is hard to see with lots of branches)*
 
 - Easily inspect the state of any file as of a certain commit.
+
+  *Source tree only shows you files that where modified as part of the commit.*
 
 - Easy to copy text from the diff view (SourceTree only allows you to copy line-by-line).
 
@@ -72,7 +84,7 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
 - The layout adjusts well when the window is resized and everything stays in place.
 
-  *(Occasionally the Sourcetree window can't be dragged, panels get stuck and cant be resized, and panels adjust using percentages. Also the commit message panel doesn't resize automatically like Sublime).
+  *(Occasionally the Sourcetree window can't be dragged, panels get stuck and cant be resized, and panels adjust using percentages. Also the commit message panel doesn't resize automatically like Sublime Merge).
 
 - The graph design is nice and simple. You can collapse merged branches as well, which is nice.
 
@@ -82,23 +94,25 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
   *(Sourcetree doesn't have this feature)*
 
-- Installing Sublime Merge is dead simple.
-
-  *(Source tree requires you to register with a BitBucket account, plus several other steps)*
-
 - You can see stashes in the graph.
 
   *(Sourcetree doesn't have this feature)*
 
-- Interactive rebase commands are performed separately, and this works out to be very intuitive. Simply `Ctrl`+`Click` multiple commits, then use the context menu to squash, reorder, amend commit message, etc.
+- Installation is dead simple.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-001.png)
+  *(Source tree requires you to register with a BitBucket account, plus several other steps)*
 
-  *(The Interactive rebase interface in Sourcetree is vague and unintuitive because it provides an interface to do everything all at once)*
+
+### Sourcetree features that are better:
+
+- You can adjust the number of lines before and after a diff.
+
+  *This cannot be changed in Sublime Merge.*
+
 
 ### Sourcetree bugs that make me furious:
 
-- Regular crashes and needs to be reinstalled (or reboot pc), usually just after updating Microsoft Office.
+- Regularly crashes and needs to be reinstalled (or reboot pc), usually just after updating Microsoft Office.
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-011.png)
 
@@ -107,7 +121,5 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 - Keeps prompting for authentication for each repo separately (very frustrating).
 
 - Sometimes when you click on a branch it doesn't jump to it in the graph view.
-
-- Doing a diff between two different commits is not always reliable (usually doesn't show all the files that are changed).
 
 So what are you waiting for? [Go and download it now!](https://www.sublimemerge.com)
