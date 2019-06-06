@@ -4,10 +4,6 @@ I stopped using Sourcetree (Windows version) a few weeks ago and haven't looked 
 
 Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far superior Git client:
 
-- It integrates natively with Sublime Text.
-
-  *(You can specify a default editor in Sourcetree)*
-
 - Its lightning fast.
 
   *(Sourcetree is a turtle in comparison)*
@@ -26,7 +22,7 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
 - `Ctrl`+`Click` any two commits to see a diff of them.
 
-  *(You can do this in Sourcetree but its buggy and doesn't give the correct result most of the time)*
+  *(Sourcetree can do this, but its buggy and doesn't give the correct result most of the time)*
 
 - Cloning a repo is wonderfully simple:
 
@@ -34,11 +30,11 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
   *(In Sourcetree there are so many clicks and options, and it is so slow performing the clone)*
   
-- The work flow for resolving merge conflicts is vey streamlined:
+- The work flow for resolving merge conflicts is very streamlined:
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-007.png)
 
-  *(The workflow in Sourcetree is vauge and unintuitive)*
+  *(The workflow in Sourcetree is vague and unintuitive)*
   
 - Some buttons show what git commands they execute (handy if you're learning how git works).
 
@@ -98,7 +94,7 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-001.png)
 
-  *(The Interactive rebase interface in Sourcetree is vauge and unintuitive because it provides an interface to do everything all at once)*
+  *(The Interactive rebase interface in Sourcetree is vague and unintuitive because it provides an interface to do everything all at once)*
 
 ### Sourcetree bugs that make me furious:
 
@@ -112,6 +108,6 @@ Here are some reasons why [Sublime Merge](https://www.sublimemerge.com) is a far
 
 - Sometimes when you click on a branch it doesn't jump to it in the graph view.
 
-- Doing a diff between two different commits is not always reliable (usually doesnt show all the files that are changed).
+- Doing a diff between two different commits is not always reliable (usually doesn't show all the files that are changed).
 
 So what are you waiting for? [Go and download it now!](https://www.sublimemerge.com)
