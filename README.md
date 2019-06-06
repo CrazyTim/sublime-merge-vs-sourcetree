@@ -54,6 +54,14 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   *(Sourcetree doesn't have this feature)*
 
+- Its possible to open multiple windows if that's what you need.
+
+  *(Sourcetree opens repos as tabs inside a single window, so you can't do a side-by-side of two repos)*
+
+- Instantly switch to another repo using `Shift`+`Ctrl`+`O`. Sublime Merge will remember any repo you have previously opened.
+
+  *(Sourcetree gets slower the more repo tabs there are. Its just clunkier.)*
+
 - The checked-out branch name is prominent:
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-004.png)
