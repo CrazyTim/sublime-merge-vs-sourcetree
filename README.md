@@ -1,8 +1,30 @@
-# Sublime Merge vs SourceTree
+# Sublime Merge vs SourceTree (Git client comparison)
 
-I stopped using Sourcetree (Windows version) a few weeks ago and haven't looked back.
+I started using Sublime Merge a few weeks ago and haven't looked back since.
 
-Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) is a far superior Git client:
+So what's wrong with Sourcetree? I'm glad you asked!
+
+
+### What I hate about Sourcetree:
+
+- Regularly crashes and needs to be reinstalled (or reboot pc), usually just after updating Microsoft Office.
+
+  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-011.png)
+
+- Regularly complains about corrupt dictionaries and asks if I want to delete them (??).
+
+- Keeps prompting for authentication for each repo separately (very frustrating).
+
+- Sometimes when you click on a branch it doesn't jump to it in the graph view.
+
+
+### What I love about Sublime Merge:
+
+The main point of this article is to show that Sublime Merge can do everything that Sourcetree can, and do a better job, plus more.
+
+First head over to the website and read the feature highlights [here](). 
+
+And here is why I think Sublime Merge is far superior:
 
 - Its lightning fast.
 
@@ -58,9 +80,9 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   *(Sourcetree opens repos as tabs inside a single window, so you can't do a side-by-side of two repos)*
 
-- Instantly switch to another repo using `Shift`+`Ctrl`+`O`. Sublime Merge will remember any repo you have previously opened.
+- Instantly switch to another repo using `Shift`+`Ctrl`+`O`. Sublime Merge remembers the last dozen repos you opened.
 
-  *(Sourcetree gets slower the more repo tabs there are. Its just clunkier.)*
+  *(Sourcetree gets slower the more repo tabs that are open.)*
 
 - The checked-out branch name is prominent:
 
@@ -68,9 +90,13 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   *(Sourcetree only bolds the branch name, which is hard to see with lots of branches)*
 
-- Easily inspect the state of any file as of a certain commit (`Right-Click` on a commit > `View Tree`).
+- Easily inspect the state of any file as of a certain commit (`Right-Click` on a commit > `View Tree`). This opens a "blame" view of the file where you can see the relative age of each line.
 
-  *Source tree only shows you files that where modified as part of the commit.*
+  *Source tree only shows you files that where modified as part of the commit. You can open up a blame view but it calls it "[??]".*
+
+- Diff shows you the individual characters that have changed.
+
+  *(Sourcetree doesn't have this feature)*
 
 - Easy to copy text from the diff view (SourceTree only allows you to copy line-by-line).
 
@@ -94,7 +120,7 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-009.png)
   
-- Diff view changes to 2 columns when the window is large enough.
+- Diff view changes to 2 columns when the window is large enough. Very useful.
 
   *(Sourcetree doesn't have this feature)*
 
@@ -107,25 +133,13 @@ Here are some reasons why I think [Sublime Merge](https://www.sublimemerge.com) 
   *(Source tree requires you to register with a BitBucket account, plus several other steps)*
 
 
-### Sourcetree features that are better:
+### What can Sourcetree do that Sublime Merge can't?
 
-Sublime Merge can do everything Sourcetree can, well, almost...
+Its a small list:
 
 - You can adjust the number of lines before and after a diff.
 
   *(Sublime Merge doesn't have this feature)*
 
-
-### Sourcetree bugs that make me furious:
-
-- Regularly crashes and needs to be reinstalled (or reboot pc), usually just after updating Microsoft Office.
-
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-011.png)
-
-- Regularly complains about corrupt dictionaries and asks if I want to delete them (??).
-
-- Keeps prompting for authentication for each repo separately (very frustrating).
-
-- Sometimes when you click on a branch it doesn't jump to it in the graph view.
 
 So what are you waiting for? [Go and download it now!](https://www.sublimemerge.com)
