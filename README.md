@@ -132,14 +132,10 @@ And here is why I think Sublime Merge is far superior:
 
   *(Source tree requires you to register with a BitBucket account, plus several other steps)*
 
+- You can adjust the number of lines around a diff just by dragging with the mouse on the edge of the diff (how cool is that!).
+
+  *(Sublime Merge lets you choose from presets (3, 5, 15 lines etc), and all the diffs are resized to that amount)*
 
 ### What can Sourcetree do that Sublime Merge can't?
 
-Its a small list:
-
-- You can adjust the number of lines before and after a diff.
-
-  *(Sublime Merge doesn't have this feature)*
-
-
-So what are you waiting for? [Go and download it now!](https://www.sublimemerge.com)
+Um... nothing. So what are you waiting for? [Go and download it now!](https://www.sublimemerge.com)
