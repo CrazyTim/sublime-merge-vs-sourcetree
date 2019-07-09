@@ -62,7 +62,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
 	![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-013.png)
 
-	*(Sourcetree doesn't have clear indicators that a rebase is in progress. The rebase commands to abort or continue are hidden 2 deep in a menu.)
+	*(Sourcetree doesn't have clear indicators that a rebase is in progress. The rebase commands to abort or continue are hidden 2 deep in a menu.)*
 
 - Cloning a repo is wonderfully simple - you can do it in two clicks:
 
@@ -106,7 +106,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - Easily inspect the state of any file as of a certain commit (`Right-Click` on a commit > `View Tree`). Each file is shown as a "blame" view and it is lightning fast. You can see the relative age of each line, and hover over the line to get more info about the commit.
 
-  *Sourcetree blame isn't as flexible. You need to blame files individually using `right-click` menus. Sourcetree calls blame "Annotate" (deprecated term), and it opens in a new window (which could be handy).*
+  *(Sourcetree blame isn't as flexible. You need to blame files individually using `right-click` menus. Sourcetree calls blame "Annotate" (deprecated term), and it opens in a new window (which could be handy)).*
 
 - Diff shows you the individual characters that have changed.
 
@@ -134,7 +134,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-009.png)
   
-- Diff view changes to 2 columns when the window is large enough. Very useful.
+- Diff view changes to 2 columns when the window is large enough. I think its easier to read diffs with two columns, but it takes up more screen space so I only use it when the diff looks confusing).
 
   *(Sourcetree doesn't have this feature)*
 
@@ -168,7 +168,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
 	*(Sourcetree shows a repeating animation with no progress being indicated)*
 
-- You can cancel a long operation if you need to by clicking the little `x`:
+- You can cancel an operation if you accidentally did it in haste (such as pushing changes) by clicking the little `x`:
 
   ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-016.png)
 
