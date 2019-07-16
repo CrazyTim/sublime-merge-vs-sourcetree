@@ -164,9 +164,11 @@ Please also head over to their website and read the [feature highlights](https:/
 
 	*(Sourcetree doesn't have this feature, need to use `Ctrl`+`Y`)*
 
-- A progress bar is sometimes shown for long operations such as merges.
+- A progress bar is shown for predictable operations, such as merges or pushes.
 
-	*(Sourcetree shows a repeating animation with no progress being indicated)*
+  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-017.png)
+
+	*(Sourcetree always shows an animated progress bar with no progress being indicated)*
 
 - You can cancel an operation if you accidentally did it in haste (such as pushing changes) by clicking the little `x`:
 
