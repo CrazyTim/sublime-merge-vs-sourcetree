@@ -1,7 +1,4 @@
----
-layout: post
-title: Blogging Like a Hacker
----
+
 
 # Sublime Merge vs SourceTree (Git client comparison)
 
