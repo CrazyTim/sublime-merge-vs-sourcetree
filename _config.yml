@@ -1,4 +1,4 @@
 titles_from_headings:
-  enabled:     true
+  enabled: false
   
 theme: minima
