@@ -1,4 +1,9 @@
 titles_from_headings:
   enabled: false
   
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  
 theme: minima
