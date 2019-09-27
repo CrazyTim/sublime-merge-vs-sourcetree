@@ -1,4 +1,3 @@
-
 # Sublime Merge vs SourceTree (Git client comparison)
 
 The main point of this article is to point out the amazing features in Sublime Merge, and to illustrate why you should avoid using Sourcetree. I hope my comments help to further improve both tools.
@@ -7,13 +6,13 @@ The main point of this article is to point out the amazing features in Sublime M
 
 Note: my experience is with the Windows versions of Sublime Merge and Sourcetree. Mileage may vary on OSX or Linux.
 
-### What's wrong with Sourcetree?
+## What's wrong with Sourcetree?
 
 - Slow.
 
 - Regularly crashes and needs to be reinstalled (or requires a reboot), usually just after updating Microsoft Office.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-011.png)
+  ![Screen shot](./img/merge-011.png)
 
 - Regularly complains about corrupt dictionaries and asks if I want to delete them.
 
@@ -22,7 +21,7 @@ Note: my experience is with the Windows versions of Sublime Merge and Sourcetree
 - Sometimes when you click on a branch it doesn't jump to it in the graph view. Need to click on/off twice.
 
 
-### What's so amazing about Sublime Merge?
+## What's so amazing about Sublime Merge?
 
 I have used Sourcetree for over a year and during that time I was still learning git. After switching to Sublime Merge my knowledge of git exploded and it has been a great discovery process. Sublime Merge is a great tool and its features helped me learn git and made my workflow faster.
 
@@ -52,37 +51,37 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - Interactive rebase commands are performed individually, and this works out to be very intuitive from a GUI. Simply select one or more commits, then use the context menu to squash, reorder, drop, amend commit message, etc.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-001.png)
+  ![Screen shot](./img/merge-001.png)
 
   *(The Interactive rebase interface in Sourcetree is vague and unintuitive)*
 
 - The GUI has clear indicators to show when you are currently rebasing. You can refer to the last git command, and there are buttons to `Abort rebase` or `Continue rebase`.
 
-	![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-012.png)
+	![Screen shot](./img/merge-012.png)
 
-	![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-013.png)
+	![Screen shot](./img/merge-013.png)
 
 	*(Sourcetree doesn't have clear indicators that a rebase is in progress. The rebase commands to abort or continue are hidden 2 deep in a menu.)*
 
 - Cloning a repo is wonderfully simple - you can do it in two clicks:
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-005.png)
+  ![Screen shot](./img/merge-005.png)
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-015.png)
+  ![Screen shot](./img/merge-015.png)
 
   *(In Sourcetree there are many clicks and confusing options, and its so slow performing the clone)*
   
 - The work flow for resolving merge conflicts is very streamlined:
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-007.png)
+  ![Screen shot](./img/merge-007.png)
 
   *(The workflow in Sourcetree is vague and unintuitive)*
   
 - Tool tips on some buttons show what git commands will be executed when you press them (this helps you learn git).
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-008.png)
+  ![Screen shot](./img/merge-008.png)
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-010.png)
+  ![Screen shot](./img/merge-010.png)
 
   *(Sourcetree hides most of the git internals, so you need to experiment. Labels are poorly written too, which makes it scary for learners)*
 
@@ -100,7 +99,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - The checked-out branch name is prominent at the top of the window:
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-004.png)
+  ![Screen shot](./img/merge-004.png)
 
   *(Sourcetree only bolds the branch name, which is hard to see with lots of branches)*
 
@@ -114,15 +113,15 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - Easy to copy text from the diff view (SourceTree only allows you to copy line-by-line).
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-003.png)
+  ![Screen shot](./img/merge-003.png)
 
 - Hide/show individual local/remote branches.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-006.png)
+  ![Screen shot](./img/merge-006.png)
 
 - Powerful find (`Ctrl`+`F`), and there is a query syntax:
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-002.png)
+  ![Screen shot](./img/merge-002.png)
 
   *(Sourcetree search is slow, uninspiring, and mostly gives inaccurate results)*
 
@@ -132,7 +131,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - The graph design is nice and simple. You can collapse merged branches as well, which is nice.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-009.png)
+  ![Screen shot](./img/merge-009.png)
   
 - Diff view changes to 2 columns when the window is large enough. I think its easier to read diffs with two columns, but it takes up more screen space so I only use it when the diff looks confusing).
 
@@ -156,7 +155,7 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - You can undo/redo git actions in the `Repository` menu.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-014.png)
+  ![Screen shot](./img/merge-014.png)
 
 	*(Sourcetree doesn't have this feature)*
 
@@ -166,13 +165,13 @@ Please also head over to their website and read the [feature highlights](https:/
 
 - A progress bar is shown for predictable operations, such as merges or pushes.
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-017.png)
+  ![Screen shot](./img/merge-017.png)
 
 	*(Sourcetree always shows an animated progress bar with no progress being indicated)*
 
 - You can cancel an operation if you accidentally did it in haste (such as pushing changes) by clicking the little `x`:
 
-  ![Screen shot](https://crazytim.github.io/sublime-merge-vs-sourcetree/img/merge-016.png)
+  ![Screen shot](./img/merge-016.png)
 
   *(Sourcetree doesn't have this feature)*
 
@@ -181,6 +180,10 @@ Please also head over to their website and read the [feature highlights](https:/
 	*(Sourcetree has this feature)*
 
 
-### What are some features I wish Sublime Merge had?
+## What are some features I wish Sublime Merge had?
 
 - [coming soon!]
+
+## License
+
+See the [License File](./LICENSE.md).
