@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 # Sublime Merge vs SourceTree (Git client comparison)
 
 The main point of this article is to point out the amazing features in Sublime Merge, and to illustrate why you should avoid using Sourcetree. I hope my comments help to further improve both tools.
