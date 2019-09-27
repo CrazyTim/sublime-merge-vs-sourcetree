@@ -1,5 +1,5 @@
 ---
-title: Sublime Merge vs SourceTree (Git client comparison)
+title: null
 ---
 
 # Sublime Merge vs SourceTree (Git client comparison)
